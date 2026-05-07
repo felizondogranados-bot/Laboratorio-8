@@ -2,8 +2,8 @@
   "name": "laboratorio-8",
   "version": "1.0.0",
   "description": "Aplicación de series utilizando Fetch API y Async/Await",
+  "homepage": "https://francelaelizondo-bot.github.io/Laboratorio-8",
   "main": "src/index.js",
-  "homepage": "https://francelaelizondo-bot.github.io/LABORATORIO-8",
   "scripts": {
     "dev": "live-server src",
     "deploy": "gh-pages -d src"
