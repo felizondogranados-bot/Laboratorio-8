@@ -1,0 +1,11 @@
+{
+  "name": "laboratorio-8",
+  "version": "1.0.0",
+  "description": "Aplicación de series utilizando Fetch API y Async/Await",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "author": "Francela Elizondo Granados",
+  "license": "ISC"
+}

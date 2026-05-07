@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.poster{
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+
+.rating-container{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.episodes{
+    display: grid;
+    place-items: start;
+    place-content: center;
+}
+
+.season{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.season-header,
+.episode{
+
+    --size: 3rem;
+
+    width: var(--size);
+    height: var(--size);
+
+    display: grid;
+    place-items: center;
+
+    margin: 5px;
+
+    border-radius: 15px;
+
+    color: white;
+
+    font-weight: bold;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.season-header{
+    background: #166b1a;
+}
+
+.episode{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.episode:hover{
+    transform: scale(1.1);
+}
+
+/* ======================================
+   COLORES RATINGS
+====================================== */
+
+.rating-0 { background: #2b0a27; }
+.rating-1 { background: #451010; }
+.rating-2 { background: #922323; }
+.rating-3 { background: #c53030; }
+.rating-4 { background: #c53030; }
+.rating-5 { background: #c53030; }
+.rating-6 { background: #dd6b20; }
+.rating-7 {
+    background: #f6e05e;
+    color: #333;
+}
+.rating-8 { background: #48bb78; }
+.rating-9 { background: #2f855a; }
+.rating-10 { background: #4CAF50; }
+
+/* ======================================
+   SEARCH
+====================================== */
+
+.search-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+#searchInput{
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    width: 250px;
+
+    font-size: 16px;
+}
+
+#searchButton{
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #4CAF50;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+#searchButton:hover{
+    transform: scale(1.05);
+}
