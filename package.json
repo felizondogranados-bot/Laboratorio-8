@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Aplicación de series utilizando Fetch API y Async/Await",
   "main": "src/index.js",
-  "homepage": "https://TU-USUARIO.github.io/LABORATORIO-8",
+  "homepage": "https://francelaelizondo-bot.github.io/LABORATORIO-8",
   "scripts": {
     "dev": "live-server src",
     "deploy": "gh-pages -d src"
